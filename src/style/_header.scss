@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  background-color: $color-gray;
+  padding: 3rem;
+  width: 100%;
+  
+  z-index: 2;
+
+  &-phone {
+    position: absolute;
+    right: 0;
+  
+    padding-top: 5px;
+    margin-top: 20rem;
+    margin-right: 1rem;
+    
+    height: 40%;
+    border-radius: 60%;
+  
+    text-align: center;
+    background-color: $color-white-darken;
+
+    &__ico-phone {
+      width: 80%;
+    }
+  }
+
+  &-logo {
+    position:absolute;
+    top: 30px;
+    left: 30px;
+
+    &__link {
+      text-decoration: none;
+      color: $color-white;
+            
+      font-size: $font-12;
+
+      &__link:hover {
+        color: $color-link-hover;
+        text-decoration:wavy;
+      }
+
+      &_img {
+        display: inline;
+        width: 60px;
+        height: 60px;
+
+      }
+    }
+  }
+
+  &-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    &__icons {
+      display: inline-block;
+   
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

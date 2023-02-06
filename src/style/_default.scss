@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 2000px;
+  
+  font-size: $font-12;
+}
+
+.link:hover {
+  color: $color-link-hover;
+  text-decoration:wavy;
+}
+
+.img:hover {
+  box-shadow: 0 6px 5px $color-gray;
+}
+
+
+.title-head {
+  margin: 0;
+  padding: 2rem;
+  
+  text-align: center;
+  text-decoration: line-through;
+  letter-spacing: .5rem;
+  font-size: 36px;
+  color: $color-link-hover;
+}
+
+.container1 {
+  max-width: 1280px;
+  
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.container2 {
+  background-color: $color-white-darken;
+
+  max-width: 1200px;
+  height: 580px;
+
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  border-radius: 10px;
+}
+
+.list { 
+  display: inline-block;
+  padding: 1.6rem;
+  
+  list-style: none;
+}
+
+.cars {
+    position: relative;
+    width: calc(100% / 4);
+    margin: 1rem;
+    padding: .5rem;
+    
+    border-radius: 2rem;
+    
+    background-color: var(--white-darken);
+    color: var(--link-hover);
+    text-align: center;
+
+    z-index: 1;
+}
+  

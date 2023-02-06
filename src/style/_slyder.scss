@@ -1,0 +1,32 @@
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+img {
+ width: 55%;
+ border-radius: 50%;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-cars {
+    position: relative;
+    width: calc(100% / 4);
+    margin: 1rem;
+    padding: .5rem;
+    
+    border-radius: 2rem;
+    
+    background-color: $color-white-darken;
+    color: $color-link-hover;
+    text-align: center;
+  
+    z-index: 1;
+  }
+}
+
+

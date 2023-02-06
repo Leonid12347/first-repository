@@ -1,0 +1,17 @@
+.footer {
+  background-color: $color-gray;
+  width: 100%;
+}
+
+.rights {
+  padding: 1rem;
+
+  background-color: $color-green-darken;
+  color: $color-white;
+  text-align: left;
+
+  &-rights-descriptions {
+    font-size: $font-14;
+  }
+}
+
